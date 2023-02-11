@@ -1,0 +1,54 @@
+.login-c{
+    height: 700px;
+    display: flex;
+}
+.login-c>.img-c{
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/contact.webp');
+    background-size: cover;
+    background-position: center;
+}
+.login-c>form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.login-c>form>h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+.login-c>form>input{
+    padding: 12px 24px;
+    width: 100%;
+    max-width: 330px;
+    transition: .2s;
+    border: 1px solid rgb(200, 200, 200);
+}
+.login-c>form>input:focus{
+    border-radius: 8px;
+    border: 1px solid blueviolet;
+}
+.login-c>form>button{
+    padding: 12px 32px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+    transition: .2s;
+}
+.login-c>form>button:hover{
+    border-radius: 12px;
+    background: blueviolet;
+    color: #fff;
+}
+
+.login-c>form>a{
+
+}

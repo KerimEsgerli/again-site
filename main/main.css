@@ -1,0 +1,95 @@
+/*Nav Start*/
+nav{
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    justify-content: space-between;
+}
+nav>h1{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 36px;
+    color: blueviolet;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav>ul>a{
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+nav>.btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav>.btns>a{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+#login{
+    color: blueviolet;
+}
+#register{
+    background: blueviolet;
+    color: #fff;
+}
+/*Nav End*/
+
+/*Hero Start*/
+.hero{
+    border-radius: 20px;
+    height: 500px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero>h1{
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    padding: 50px;
+    text-shadow: 0 0 20px #ad5823;
+}
+/*Hero End*/
+
+
+/*Footer start*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+footer>.logo-c>h1{
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: 500;
+}
+footer>.logo-c>p{
+    color: grey;
+}
+footer>.links-c{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+footer>.links-c>ul{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+footer>.links-c>ul>li{
+    font-size: 18px;
+    cursor: pointer;
+}
+/*Footer end*/
